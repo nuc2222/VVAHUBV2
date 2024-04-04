@@ -47,7 +47,7 @@ local function hitbox(size, target)
 		obj:AddTag("HitboxEffect")
 		obj.HumanoidRootPart.Color = Color3.fromRGB(23, 255, 6)
 		obj.HumanoidRootPart.Size = Vector3.new(size, size, size)
-		obj.HumanoidRootPart.CanCollide = false
+		obj.HumanoidRootPart.CanCollide = true
 		obj.HumanoidRootPart.Transparency = 0.7
 		obj.HumanoidRootPart.CFrame = obj.HumanoidRootPart.CFrame
 		obj.HumanoidRootPart.CastShadow = false
